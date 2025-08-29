@@ -14,7 +14,6 @@
 		12A1A44424D561AC0057ED7A /* CoreDataHelper+FetchRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1A44324D561AC0057ED7A /* CoreDataHelper+FetchRequests.swift */; };
 		4588D66B230D23AA009AA75F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D66D230D23AA009AA75F /* InfoPlist.strings */; };
 		4588D66F230D2476009AA75F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D671230D2476009AA75F /* InfoPlist.strings */; };
-		45A430E9230D61240003C2F2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A430EB230D61240003C2F2 /* Interface.storyboard */; };
 		8913CD8C1BDB0A9A009EC729 /* PreferencesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913CD8B1BDB0A9A009EC729 /* PreferencesTableViewController.swift */; };
 		8913CD8E1BDB2477009EC729 /* PreferencesTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913CD8D1BDB2477009EC729 /* PreferencesTableViewControllerDelegate.swift */; };
 		893BEC8619C7E62200C77354 /* GPXWaypoint+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BEC8519C7E62200C77354 /* GPXWaypoint+MKAnnotation.swift */; };
@@ -62,7 +61,6 @@
 		BF6428B8220EC1A90015447E /* GPXFileTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6428B7220EC1A90015447E /* GPXFileTableRowController.swift */; };
 		BF64602F220AE9CF00957FF6 /* GPXTrackSegment+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D676B19CD9E9E00C88A0A /* GPXTrackSegment+MapKit.swift */; };
 		BF68ECC62448B887005C779F /* DateFieldTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68ECC52448B887005C779F /* DateFieldTypeView.swift */; };
-		BF692F5D2209AAFB00F8A0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF692F5C2209AAFB00F8A0F1 /* Assets.xcassets */; };
 		BF692F642209AAFB00F8A0F1 /* OpenGpxTracker-Watch Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BF692F632209AAFB00F8A0F1 /* OpenGpxTracker-Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BF692F692209AAFB00F8A0F1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF692F682209AAFB00F8A0F1 /* InterfaceController.swift */; };
 		BF692F6B2209AAFB00F8A0F1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF692F6A2209AAFB00F8A0F1 /* ExtensionDelegate.swift */; };
@@ -89,7 +87,6 @@
 		BFE026C6244A02A4005423E6 /* DatePatternButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE026C5244A02A4005423E6 /* DatePatternButton.swift */; };
 		BFF3047F2312DC1D0012D263 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE1A6230EAB9B00404B59 /* Localizable.strings */; };
 		BFF304802312DC1F0012D263 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE1A6230EAB9B00404B59 /* Localizable.strings */; };
-		BFF304812312DC700012D263 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A430EB230D61240003C2F2 /* Interface.storyboard */; };
 		BFF304822312DC800012D263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D671230D2476009AA75F /* InfoPlist.strings */; };
 		C51CE1F4B71B7051FF9F4D44 /* Pods_OpenGpxTracker_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BD71BED3CF101C2B01ABDA /* Pods_OpenGpxTracker_Watch_Extension.framework */; };
 		C894B839E0B8DC37DE05DDCC /* Pods_OpenGpxTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D28CBDF2535138FA16F38F /* Pods_OpenGpxTracker.framework */; };
@@ -151,20 +148,19 @@
 		0175AC0323F014EA003323C3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0175AC0523F01519003323C3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0175AC0723F01523003323C3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0E2A5AF62D7670BC00F7B36A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		0E5BDFCA2D79E2D7006A8443 /* lax.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lax.gpx; sourceTree = "<group>"; };
 		120DE70F22B274910055C4CB /* GPXSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXSession.swift; sourceTree = "<group>"; };
 		12491EA228D7057D009F6BE1 /* MKMapView+ConvenientOverlayInserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+ConvenientOverlayInserts.swift"; sourceTree = "<group>"; };
-		1262DD9624F9568F00B5C2EA /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Interface.strings; sourceTree = "<group>"; };
 		1262DD9724F9568F00B5C2EA /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1262DD9824F9568F00B5C2EA /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1262DD9924F9568F00B5C2EA /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12A1A44324D561AC0057ED7A /* CoreDataHelper+FetchRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataHelper+FetchRequests.swift"; sourceTree = "<group>"; };
 		12A804A92656CE8200CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		12A804AA2656CE8200CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
-		12A804AB2656CE8300CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Interface.strings"; sourceTree = "<group>"; };
 		12A804AC2656CE8300CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		12A804AD2656CE8300CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		12A804AE2656CE8300CA77C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		12D4905424C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Interface.strings; sourceTree = "<group>"; };
 		12D4905524C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		12D4905624C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12D4905724C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -175,12 +171,8 @@
 		4588D66E230D23AD009AA75F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4588D670230D2476009AA75F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4588D672230D247C009AA75F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		45A430EA230D61240003C2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		45A430ED230D612B0003C2F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
-		45A430EF230D612C0003C2F2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
 		554D2ACAA71E64B3A7B1A167 /* Pods-OpenGpxTracker-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGpxTracker-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGpxTracker-Watch Extension/Pods-OpenGpxTracker-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
 		84DE40602499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84DE40612499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Interface.strings; sourceTree = "<group>"; };
 		84DE40622499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84DE40632499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8913CD8B1BDB0A9A009EC729 /* PreferencesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewController.swift; sourceTree = "<group>"; };
@@ -191,7 +183,6 @@
 		895F04B31A7143CE004BEE8A /* GPXExtentCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXExtentCoordinates.swift; sourceTree = "<group>"; };
 		897056122A230AAF0004F133 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		898E2BDD23129FE000DC4E3F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		898E2BDE23129FE000DC4E3F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Interface.strings; sourceTree = "<group>"; };
 		898E2BDF23129FE000DC4E3F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		898E2BE023129FE000DC4E3F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		898E2BE123129FE000DC4E3F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -241,7 +232,6 @@
 		BF1FE1A9230EABA500404B59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BF214B5D22E60B64000E96AA /* CLActivityType+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLActivityType+Info.swift"; sourceTree = "<group>"; };
 		BF36B6CE220C6F1A00077B46 /* GPXFileTableInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXFileTableInterfaceController.swift; sourceTree = "<group>"; };
-		BF3D192924371DC30079B630 /* fi-FI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fi-FI"; path = "fi-FI.lproj/Interface.strings"; sourceTree = "<group>"; };
 		BF3D192A24371DC30079B630 /* fi-FI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fi-FI"; path = "fi-FI.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BF3D192B24371DC30079B630 /* fi-FI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fi-FI"; path = "fi-FI.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BF3D192C24371DC30079B630 /* fi-FI */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fi-FI"; path = "fi-FI.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -251,8 +241,6 @@
 		BF6428B7220EC1A90015447E /* GPXFileTableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXFileTableRowController.swift; sourceTree = "<group>"; };
 		BF68ECC52448B887005C779F /* DateFieldTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFieldTypeView.swift; sourceTree = "<group>"; };
 		BF692F572209AAF900F8A0F1 /* OpenGpxTracker-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGpxTracker-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF692F5C2209AAFB00F8A0F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF692F5E2209AAFB00F8A0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF692F632209AAFB00F8A0F1 /* OpenGpxTracker-Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenGpxTracker-Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF692F682209AAFB00F8A0F1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		BF692F6A2209AAFB00F8A0F1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -267,11 +255,9 @@
 		BFE026C3244A0281005423E6 /* DateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateField.swift; sourceTree = "<group>"; };
 		BFE026C5244A02A4005423E6 /* DatePatternButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePatternButton.swift; sourceTree = "<group>"; };
 		BFF3047A2312D8A00012D263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		BFF3047B2312D8A00012D263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
 		BFF3047C2312D8A00012D263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BFF3047D2312D8A10012D263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BFF3047E2312D8A10012D263 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		D39420E323CC1B0500EDC8F6 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Interface.strings; sourceTree = "<group>"; };
 		D39420E423CC1B0500EDC8F6 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D39420E523CC1B0500EDC8F6 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D39420E623CC1B0500EDC8F6 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -353,9 +339,10 @@
 		898EECCC19C49B5800B4B207 = {
 			isa = PBXGroup;
 			children = (
+				0E5BDFCA2D79E2D7006A8443 /* lax.gpx */,
+				0E2A5AF62D7670BC00F7B36A /* TestPlan.xctestplan */,
 				898EECD719C49B5800B4B207 /* OpenGpxTracker */,
 				898EECF019C49B5800B4B207 /* OpenGpxTrackerTests */,
-				BF692F582209AAF900F8A0F1 /* OpenGpxTracker-Watch */,
 				BF692F672209AAFB00F8A0F1 /* OpenGpxTracker-Watch Extension */,
 				898EED0119C4A16600B4B207 /* Frameworks */,
 				898EECD619C49B5800B4B207 /* Products */,
@@ -494,16 +481,6 @@
 				554D2ACAA71E64B3A7B1A167 /* Pods-OpenGpxTracker-Watch Extension.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF692F582209AAF900F8A0F1 /* OpenGpxTracker-Watch */ = {
-			isa = PBXGroup;
-			children = (
-				45A430EB230D61240003C2F2 /* Interface.storyboard */,
-				BF692F5C2209AAFB00F8A0F1 /* Assets.xcassets */,
-				BF692F5E2209AAFB00F8A0F1 /* Info.plist */,
-			);
-			path = "OpenGpxTracker-Watch";
 			sourceTree = "<group>";
 		};
 		BF692F672209AAFB00F8A0F1 /* OpenGpxTracker-Watch Extension */ = {
@@ -698,10 +675,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A430E9230D61240003C2F2 /* Interface.storyboard in Resources */,
 				BFF304822312DC800012D263 /* InfoPlist.strings in Resources */,
 				BFF3047F2312DC1D0012D263 /* Localizable.strings in Resources */,
-				BF692F5D2209AAFB00F8A0F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,7 +684,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF304812312DC700012D263 /* Interface.storyboard in Resources */,
 				BF692F6F2209AAFC00F8A0F1 /* Assets.xcassets in Resources */,
 				BFF304802312DC1F0012D263 /* Localizable.strings in Resources */,
 				4588D66F230D2476009AA75F /* InfoPlist.strings in Resources */,
@@ -965,24 +939,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		45A430EB230D61240003C2F2 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45A430EA230D61240003C2F2 /* Base */,
-				45A430ED230D612B0003C2F2 /* en */,
-				45A430EF230D612C0003C2F2 /* de */,
-				898E2BDE23129FE000DC4E3F /* es */,
-				BFF3047B2312D8A00012D263 /* zh-Hans */,
-				D39420E323CC1B0500EDC8F6 /* uk */,
-				BF3D192924371DC30079B630 /* fi-FI */,
-				84DE40612499509900ED7D6D /* ru */,
-				12D4905424C448540065D995 /* fr */,
-				1262DD9624F9568F00B5C2EA /* nl */,
-				12A804AB2656CE8300CA77C6 /* pt-BR */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		898EECE119C49B5800B4B207 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1133,7 +1089,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WHNQB8YDC2;
 				INFOPLIST_FILE = OpenGpxTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1236,7 +1192,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WHNQB8YDC2;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = OpenGpxTracker_Watch_Extension;
 				INFOPLIST_FILE = "OpenGpxTracker-Watch/Info.plist";
@@ -1298,7 +1254,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = WHNQB8YDC2;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "OpenGpxTracker-Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
